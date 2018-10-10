@@ -1,6 +1,5 @@
 package com.sp.controller;
 
-import com.alibaba.druid.util.StringUtils;
 import com.github.binarywang.utils.qrcode.QrcodeUtils;
 import com.github.binarywang.wxpay.bean.request.WxPayUnifiedOrderRequest;
 import com.github.binarywang.wxpay.bean.result.WxPayUnifiedOrderResult;
@@ -115,7 +114,7 @@ public class WxPayController extends BaseController {
         // （5） APP——需传入应用市场上的APP名字-实际商品名称，天天爱消除-游戏充值。
         /*if (WxPayConstants.TradeType.MWEB.equals(tradeType)) {
             //H5——应用在浏览器网页上的场景，传入浏览器打开的移动网页的主页title名-实际商品名称，例如：腾讯充值中心-QQ会员充值；
-            wxPayUnifiedOrderRequest.setBody("一元捐-" + code);
+            wxPayUnifiedOrderRequest.setBody("test-" + code);
         } else if (WxPayConstants.TradeType.JSAPI.equals(tradeType)) {
             //否是 trade_type=JSAPI，此参数必传，用户在子商户appid下的唯一标识。openid和sub_openid可以选传其中之一，如果选择传sub_openid,则必须传sub_appid。
             if (StringUtils.isEmpty(wxPayApi.getConfig().getSubAppId())) {
@@ -125,13 +124,13 @@ public class WxPayController extends BaseController {
             }
 
             //公众号——传入公众号名称-实际商品名称，例如：腾讯形象店- image-QQ公仔；
-            wxPayUnifiedOrderRequest.setBody("优软科技-" + code);
+            wxPayUnifiedOrderRequest.setBody("test-" + code);
         } else if (WxPayConstants.TradeType.NATIVE.equals(tradeType)) {
             //PC网站——传入浏览器打开的网站主页title名-实际商品名称，例如：腾讯充值中心-QQ会员充值；
-            wxPayUnifiedOrderRequest.setBody("一元捐-" + name);
+            wxPayUnifiedOrderRequest.setBody("test-" + name);
         } else if (WxPayConstants.TradeType.APP.equals(tradeType)) {
             //APP——需传入应用市场上的APP名字-实际商品名称，天天爱消除-游戏充值
-            wxPayUnifiedOrderRequest.setBody("一元捐-" + name);
+            wxPayUnifiedOrderRequest.setBody("test-" + name);
         }*/
 
         //是 商户系统内部订单号，要求32个字符内，只能是数字、大小写字母_-|*@ ，且在同一个商户号下唯一。
