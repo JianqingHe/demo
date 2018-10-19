@@ -2,6 +2,12 @@ package com.sp.support;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * IP工具
+ *
+ * @author hejq
+ * @date 2018-10-19 9:50
+ */
 public class AgentUtils {
 
     public AgentUtils() {

@@ -1,6 +1,8 @@
 package com.sp.result;
 
 /**
+ * 定义统一返回格式封装
+ *
  * @author hejq
  * @date 2018-10-10 10:36
  */

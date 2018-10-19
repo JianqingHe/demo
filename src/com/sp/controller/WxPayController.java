@@ -25,6 +25,8 @@ import java.io.*;
 import java.net.*;
 
 /**
+ * 微信支付
+ *
  * @author hejq
  * @date 2018-10-10 10:32
  */

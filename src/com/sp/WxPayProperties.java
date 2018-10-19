@@ -5,12 +5,14 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * wxpay pay properties
- *
- * @author huangct
+ * 微信支付配置
+ * 
+ * @author hejq
+ * @date 2018-10-19 9:02
  */
 @ConfigurationProperties(locations = "classpath:config/wechat.properties", prefix = "pay")
 public class WxPayProperties {
+
     /**
      * 设置微信公众号的appid
      */

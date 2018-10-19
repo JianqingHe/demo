@@ -13,10 +13,10 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Validate {
 
-    public int min() default 1;
+    int min() default 1;
 
-    public int max() default 10;
+    int max() default 10;
 
-    public boolean isNotNull() default true;
+    boolean isNotNull() default true;
 
 }

@@ -2,12 +2,13 @@ package com.sp.service;
 
 
 /**
- *
+ * Supplier
  * @author hejq
  * @date 2018-07-31 8:56
  */
 @FunctionalInterface
 public interface Supplier<T> {
+
     /**
      * Supplier是jdk1.8的接口，这里和lamda一起使用了
      *

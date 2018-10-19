@@ -6,6 +6,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * BaseController
+ *
  * @author hejq
  * @date 2018-10-10 10:46
  */
